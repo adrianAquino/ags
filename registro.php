@@ -71,18 +71,18 @@
 
                   <form class="row g-3 needs-validation" novalidate>
                     <div class="col-12">
-                      <label for="yourName" class="form-label">Nome</label>
+                      <label for="yourName" class="form-label">Nome: <span class="campo-obrigatorio">*</span></label>
                       <input type="text" name="nome" class="form-control" id="yourName" required>
                       <div class="invalid-feedback">Por favor, informe seu nome!</div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourEmail" class="form-label">Email</label>
+                      <label for="yourEmail" class="form-label">Email: <span class="campo-obrigatorio">*</span></label>
                       <input type="email" name="email" class="form-control" id="yourEmail" required>
                       <div class="invalid-feedback">Por favor, informe seu email corretamente</div>
                     </div>
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label">Senha</label>
+                      <label for="yourPassword" class="form-label">Senha: <span class="campo-obrigatorio">*</span></label>
                       <input type="password" name="senha" class="form-control" id="yourPassword" required>
                       <div class="invalid-feedback">Por favor, informe sua senha!</div>
                     </div>
@@ -102,7 +102,7 @@
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-                Powered by<a href="https://bootstrapmade.com/"> AG Soluções Técnológicas</a>
+                Powered by<a href="https://bootstrapmade.com/"> AG Soluções Tecnológicas</a>
               </div>
 
             </div>

@@ -16,7 +16,7 @@ $sql = "select * from aluno";
 function calcularIdade($dataNascimento) {
     $dataNascimento = new DateTime($dataNascimento);
     $hoje = new DateTime();
-    $idade = $hoje->diff($dataNascimento);
+    $idade = $dataNascimento->diff($hoje);
     return $idade->y;
 }
 

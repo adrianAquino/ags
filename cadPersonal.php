@@ -190,19 +190,19 @@ if (isset($_POST['salvar'])) {
                             <!-- General Form Elements -->
                             <form action="cadPersonal.php" method="post">
                                 <div class="row mb-3">
-                                    <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+                                    <label for="nome" class="col-sm-2 col-form-label">Nome: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="nome" name="nome" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="email" class="col-sm-2 col-form-label">Email</label>
+                                    <label for="email" class="col-sm-2 col-form-label">Email: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="email" id="email" name="email" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Senha: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="password" name="senha" class="form-control" required>
                                     </div>
@@ -234,67 +234,67 @@ if (isset($_POST['salvar'])) {
                                     </div>
                                 </fieldset>
                                 <div class="row mb-3">
-                                    <label for="dataNascimento" class="col-sm-2 col-form-label">Data de Nascimento</label>
+                                    <label for="dataNascimento" class="col-sm-2 col-form-label">Data de Nascimento <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="date" id="dataNascimento" name="dataNascimento" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="cpf" class="col-sm-2 col-form-label">CREF</label>
+                                    <label for="cpf" class="col-sm-2 col-form-label">CREF: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="cpf" name="cref" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="cpf" class="col-sm-2 col-form-label">CPF</label>
+                                    <label for="cpf" class="col-sm-2 col-form-label">CPF: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="cpf" name="cpf" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="cnpj" class="col-sm-2 col-form-label">CNPJ</label>
+                                    <label for="cnpj" class="col-sm-2 col-form-label">CNPJ: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="cnpj" name="cnpj" class="form-control">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="telefone" class="col-sm-2 col-form-label">Telefone</label>
+                                    <label for="telefone" class="col-sm-2 col-form-label">Telefone: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="telefone" name="telefone" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="cep" class="col-sm-2 col-form-label">CEP</label>
+                                    <label for="cep" class="col-sm-2 col-form-label">CEP: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="cep" name="cep" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="endereco" class="col-sm-2 col-form-label">Endereço</label>
+                                    <label for="endereco" class="col-sm-2 col-form-label">Endereço: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="endereco" name="endereco" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="numero" class="col-sm-2 col-form-label">Número</label>
+                                    <label for="numero" class="col-sm-2 col-form-label">Número: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="numero" name="numero" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="bairro" class="col-sm-2 col-form-label">Bairro</label>
+                                    <label for="bairro" class="col-sm-2 col-form-label">Bairro: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="bairro" name="bairro" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="cidade" class="col-sm-2 col-form-label">Cidade</label>
+                                    <label for="cidade" class="col-sm-2 col-form-label">Cidade: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" id="cidade" name="cidade" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="estado" class="col-sm-2 col-form-label">Estado</label>
+                                    <label for="estado" class="col-sm-2 col-form-label">Estado: <span class="campo-obrigatorio">*</span></label>
                                     <div class="col-sm-10">
                                         <input type="text" name="estado" id="estado" class="form-control" required>
                                     </div>
